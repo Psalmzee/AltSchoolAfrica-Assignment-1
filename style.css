@@ -1,0 +1,235 @@
+/* contact css */
+
+.contact-form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+} 
+input {
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 100%;
+}
+
+input[type="email"],
+#message,
+#name,
+select {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+#message {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+#email {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 1px solid grey;
+    box-shadow: inset 2px 2px 2px white;
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    border: 5px solid #e8e8e8;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: white;
+    border: 1px 0 solid white;
+    color: black;
+}
+
+.contact-form div {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#firstname,
+#lastname,
+#phone,
+#country,
+#state,
+#username,
+#password,
+#confirm {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+#gender select {
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 142px;
+    padding-right: 144px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.service, 
+.gender {
+    font-size: large;
+    color: #001522;
+    background-color: #cfcfcf;
+}
+
+
+
+
+/* calculator css styling*/
+
+#calculator button {
+    border-radius: 10%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #001522;
+    color: white;
+    box-shadow: 2.2px 5px 5px #707070;
+    border: rgb(201, 199, 199);
+    font-size: 20px;
+}
+
+#calculator button:hover {
+    background-color: rgb(201, 199, 199);
+    color: #2f3031;
+    box-shadow: 1.2px 5px 5px #707070;
+    border: rgb(201, 199, 199);
+}
+
+#calculator #zero {
+    margin-right: -10px;
+    padding-right: 40px;
+    border-right: none;
+    border-radius: 10% 0% 0% 10%;
+    
+}
+
+#calculator #zero2 {
+    margin-left: -10px;
+    padding-left: 30px;
+    border-radius: 0% 10% 10% 0%;
+    border-left: rgba(131, 131, 131, 0.3) 2px solid;
+    
+}
+
+#calculator #plus {
+    margin-bottom: 0%;
+    padding-bottom: 50px;
+    border-bottom: none;
+    border-radius: 10% 10% 0% 0%;
+}
+
+#calculator #plus2 {
+    margin-top: -10px;
+    padding-top: 50px;
+    border-radius: 0% 0% 10% 10%;
+    color: white;
+    border-top: rgba(131, 131, 131, 0.3) 2px solid;
+}
+
+#calculator #equal {
+    margin-right: 0%;
+    padding-right: 50px;
+    border-right: none;
+    border-radius: 10% 0% 10% 10%;
+    background-color: rgb(169, 228, 169);
+    color: #001522;
+    
+}
+
+#calculator #equal2 {
+    margin-left: -10px;
+    padding-left: 40px;
+    border-left: none;
+    border-radius: 0% 10% 10% 0%;
+    background-color: rgb(169, 228, 169);
+    color: #001522;
+}
+#calculator #del {
+    background-color: rgb(245, 136, 154);
+}
+#calculator table {
+    background-color: rgba(131, 131, 131, 0.3);
+    box-shadow: 2px 5px 5px #b1adad;
+    border-radius: 0% 0% 20px 20px;
+    border-top: none;
+}
+
+#calculator h3 {
+    text-align: center;
+    background-color: #001522;
+    color: white;
+    margin-left: 490px;
+    margin-right: 490px;
+    padding: 20px;
+    margin-bottom: 0%;
+    border-radius: 10px;
+}
+
+#calculator .table-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+} 
+
+#calculator .answer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#calculator input {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    height: 60px;
+    border: 2px solid rgb(209, 209, 209);
+    outline: none;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: right;
+    font-size: 14.99px;
+    background-color: #eeeeee;
+}
+
+#calculator ::placeholder {
+    font-weight: bold;
+    color: #001522;
+}
